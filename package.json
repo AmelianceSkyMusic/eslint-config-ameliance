@@ -1,6 +1,6 @@
 {
    "name": "eslint-config-ameliance",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "description": "Ameliance shared ESLint flat configuration for TypeScript, Prettier, and Perfectionist sorting.",
    "author": "Ameliance SkyMusic <AmelianceSkyMusic@gmail.com>",
    "repository": {
@@ -18,9 +18,7 @@
       "rules"
    ],
    "dependencies": {
-      "eslint-plugin-perfectionist": "^5.9.0",
-      "eslint-plugin-prettier": "^5.2.2",
-      "prettier": "^3.4.2"
+      "eslint-plugin-perfectionist": "^5.9.0"
    },
    "peerDependencies": {
       "@eslint/js": "^9.18.0",
