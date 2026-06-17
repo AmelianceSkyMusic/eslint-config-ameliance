@@ -31,34 +31,6 @@ const config = {
 		'@typescript-eslint/no-use-before-define': 'warn',
 		'no-useless-constructor': 'off',
 		'@typescript-eslint/no-useless-constructor': 'warn',
-
-		// Formatting Rules
-		'comma-spacing': 'off',
-		'@typescript-eslint/comma-spacing': 'warn',
-		indent: 'off',
-		'keyword-spacing': 'off',
-		'@typescript-eslint/keyword-spacing': 'warn',
-		'@typescript-eslint/member-delimiter-style': 'warn',
-		'object-curly-spacing': 'off',
-		'@typescript-eslint/object-curly-spacing': ['warn', 'always'],
-		quotes: 'off',
-		'@typescript-eslint/quotes': ['warn', 'single'],
-		semi: 'off',
-		'@typescript-eslint/semi': 'warn',
-		'space-before-blocks': 'off',
-		'@typescript-eslint/space-before-blocks': 'warn',
-		'space-before-function-paren': 'off',
-		'@typescript-eslint/space-before-function-paren': [
-			'warn',
-			{
-				anonymous: 'always',
-				named: 'never',
-				asyncArrow: 'always',
-			},
-		],
-		'space-infix-ops': 'off',
-		'@typescript-eslint/space-infix-ops': 'warn',
-		'@typescript-eslint/type-annotation-spacing': 'warn',
 	},
 };
 
